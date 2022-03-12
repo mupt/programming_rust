@@ -19,5 +19,4 @@ fn main() {
 
     fn build_user()
 
-    println!("Hello, world!");
 }
