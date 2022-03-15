@@ -130,6 +130,16 @@ Slice type
 Page 86 - Structs!
 
 
+## 3.16
+Page 86 begun again
+Tuple Structs
 
+Block highlighting in vim
+    press Esc (to leave editing or other mode)
+    hit ctrl + v (visual block mode)
+    use the ↑ / ↓ arrow keys to select lines you want (it won't highlight everything - it's OK!)
+    Shift + i (capital I)
+    insert the text you want, e.g. %
+    press Esc Esc.
 
 
