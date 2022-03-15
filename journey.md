@@ -142,4 +142,4 @@ Block highlighting in vim
     insert the text you want, e.g. %
     press Esc Esc.
 
-
+stopped at page 92, METHOD SYNTAX
