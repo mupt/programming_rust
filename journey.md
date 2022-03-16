@@ -130,7 +130,7 @@ Slice type
 Page 86 - Structs!
 
 
-## 3.16
+## 3.15
 Page 86 begun again
 Tuple Structs
 
@@ -143,3 +143,9 @@ Block highlighting in vim
     press Esc Esc.
 
 stopped at page 92, METHOD SYNTAX
+
+## 3.16
+Methods
+
+Syntactically similar to functions but are called in a struct and always act on SELF
+
