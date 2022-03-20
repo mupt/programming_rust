@@ -149,3 +149,20 @@ Methods
 
 Syntactically similar to functions but are called in a struct and always act on SELF
 
+## 3.17
+associated functions
+functions not methods because they dont have an instance of the struct to work with
+
+## 3.19
+you can have multiple associatd functions and methods that use self for the samee stuct
+
+Chapter 6
+Enums and Pattern Matching
+
+##3.20
+Rust does not have NULL values
+
+Enums can be used inside structs to define a single key that haves multiple different types
+On to Match
+If always returns a boolean value
+Match returns the matched return value
