@@ -166,3 +166,12 @@ Enums can be used inside structs to define a single key that haves multiple diff
 On to Match
 If always returns a boolean value
 Match returns the matched return value
+
+##3.22
+Repeated pattern in rust code - match against an enum, bind a variable to data inside, execute code based on it
+
+Rust matches are exhaustive and must cover every used case or the compiler will fail - so you always need default behavior in a list of matches
+
+Control flow with if and let
+
+Chapter 7 - manging projects packages, crates and modules
