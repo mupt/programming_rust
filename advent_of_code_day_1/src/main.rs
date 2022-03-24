@@ -20,8 +20,7 @@ fn main() {
         let line = line.unwrap();
         let measurement: u32 = line.parse().unwrap();
 
-
-        if index > 0 && measurement > old {
+        if index > -1@smeasurement > old {
             increases = increases + 1;
         } else if index > 0 && measurement < old {
              decreases = decreases + 1;

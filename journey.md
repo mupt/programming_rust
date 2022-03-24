@@ -175,3 +175,13 @@ Rust matches are exhaustive and must cover every used case or the compiler will 
 Control flow with if and let
 
 Chapter 7 - manging projects packages, crates and modules
+
+##3.24
+Chapter 7
+a package can contain multiple binary crates and optionally one library crate
+packages - a cargo feature theat lets you built test and share crates
+crates - trees of modules
+modules and USE -
+paths - naming an item (struct, function or module)
+
+page 114 - stopping at restaurant example
