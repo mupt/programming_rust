@@ -185,3 +185,20 @@ modules and USE -
 paths - naming an item (struct, function or module)
 
 page 114 - stopping at restaurant example
+
+##3.26
+crate
+  |__ front
+
+      |__ hosting
+          |__ add_to...
+
+module hierarchy for related functions, methods, structs, etc
+This is how you build a crate with a public API and abstract the functionality into that API by using relative and absolute
+
+
+privacy boundary defined with public method
+requires nested PUB methods to make sure that each individual function is available into side of the module
+protects the privacy of the individual methods
+
+Making Structs and Enums PUBLIC - 120
