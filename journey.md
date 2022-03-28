@@ -202,3 +202,8 @@ requires nested PUB methods to make sure that each individual function is availa
 protects the privacy of the individual methods
 
 Making Structs and Enums PUBLIC - 120
+
+##3.27
+Making structs public!
+
+Getting in the weeds a bit with howw to namespace, ensure public ENUMS and STRUCTS.
