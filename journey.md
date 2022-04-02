@@ -207,3 +207,15 @@ Making Structs and Enums PUBLIC - 120
 Making structs public!
 
 Getting in the weeds a bit with howw to namespace, ensure public ENUMS and STRUCTS.
+
+##3.30
+page 125
+Using External Packages
+Common Collections - Chapter 8
+Collections are data structures in Rust different from built-in array and tuple types. Thisey are stored on the heap because their size is unknown
+
+Vector - Variable number of values next to each other
+String - Collection of Characters
+Hash Map - associate a value with a particular key, its a map
+
+##4.2
