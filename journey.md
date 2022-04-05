@@ -159,7 +159,7 @@ you can have multiple associatd functions and methods that use self for the same
 Chapter 6
 Enums and Pattern Matching
 
-##3.20
+## 3.20
 Rust does not have NULL values
 
 Enums can be used inside structs to define a single key that haves multiple different types
@@ -167,7 +167,7 @@ On to Match
 If always returns a boolean value
 Match returns the matched return value
 
-##3.22
+## 3.22
 Repeated pattern in rust code - match against an enum, bind a variable to data inside, execute code based on it
 
 Rust matches are exhaustive and must cover every used case or the compiler will fail - so you always need default behavior in a list of matches
@@ -176,7 +176,7 @@ Control flow with if and let
 
 Chapter 7 - manging projects packages, crates and modules
 
-##3.24
+## 3.24
 Chapter 7
 a package can contain multiple binary crates and optionally one library crate
 packages - a cargo feature theat lets you built test and share crates
@@ -186,7 +186,7 @@ paths - naming an item (struct, function or module)
 
 page 114 - stopping at restaurant example
 
-##3.26
+## 3.26
 crate
   |__ front
 
@@ -203,12 +203,12 @@ protects the privacy of the individual methods
 
 Making Structs and Enums PUBLIC - 120
 
-##3.27
+## 3.27
 Making structs public!
 
 Getting in the weeds a bit with howw to namespace, ensure public ENUMS and STRUCTS.
 
-##3.30
+## 3.30
 page 125
 Using External Packages
 Common Collections - Chapter 8
@@ -218,4 +218,8 @@ Vector - Variable number of values next to each other
 String - Collection of Characters
 Hash Map - associate a value with a particular key, its a map
 
-##4.2
+## 4.2
+Vectors can only store values that are the same type
+
+## 4.5
+the `String` type
