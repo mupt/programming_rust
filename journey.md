@@ -223,3 +223,10 @@ Vectors can only store values that are the same type
 
 ## 4.5
 the `String` type
+  - Growable
+  - Mutable
+  - Owned
+  - UTF-8 Encoded String Type
+
+`deref coercion`
+page 140
