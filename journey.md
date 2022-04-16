@@ -230,3 +230,19 @@ the `String` type
 
 `deref coercion`
 page 140
+
+## 4.6
+### Strings
+Indexing into Strings
+  - Bytes
+  - Scalar Values
+  - Grapheme Clusters
+
+  Unable to gaurantee I/O performance with a string so no indexing selecting is allowed.
+
+### Hash Maps
+`HashMap<K, V>` stores a mapping of key to type K to values of type V
+
+## 4.16
+Prolonged break!
+
