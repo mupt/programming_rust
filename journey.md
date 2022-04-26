@@ -246,3 +246,7 @@ Indexing into Strings
 ## 4.16
 Prolonged break!
 
+## 4.26
+Exercism.io exercises
+
+hello world and lucians lasagna done

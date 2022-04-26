@@ -75,49 +75,47 @@ fn main() {
 fn exercise_one() {
 
 
-    let v = vec![1, 2, 3, 1, 1,];
+    let v = vec![1, 2, 3, 1, 1, 1];
 
     let mut sum = 0;
     let mut frequency = HashMap::new();
 
     for i in &v {
 
-        //gather sum
         sum = sum + i;
 
-
-        //for each individual element count how many times it happens
-
-        //If it contains the key, add a 1 to the value
         if frequency.contains_key( & i ) {
 
-            //get the value, add it then re-insert
-
-            let current_count = frequency.remove(&i);
-
-            let int = match current_count {
-                Some(_) => 1,
-                _ => 0,
+            let int =
+                match frequency.get(&i) {
+                    Some(&count) =>  count,
+                    _ => 1
             };
 
-            println!("current_count = {:?}", current_count);
+            println!("{}", int);
 
-            frequency.entry(i).or_insert(int + 1);
+            frequency.insert(i, int + 1);
 
-
-        //if it doesn't, add the entry
         } else {
 
             frequency.insert(i, 1);
 
-        }
+        };
 
 
     }
 
+    //I have the hashmap with the frequencies and now i just need to figure out
+    //which is the highest number
+
+    for (k, v) in frequency.into_iter() {
+        println!("{} / {}", k, v);
+    };
+
+
     //Average
-    //println!("{}", sum / v.len());
-    println!("{:?}", frequency);
+    //println!("average - {}", sum / v.len());
+    //println!("{:?}", frequency);
 }
 
 
