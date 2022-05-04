@@ -250,3 +250,9 @@ Prolonged break!
 Exercism.io exercises
 
 hello world and lucians lasagna done
+
+## 5.3
+Completed Assembly Line Exercise on Exercism.io
+
+## 5.4
+Worked on Structured log exercise`
